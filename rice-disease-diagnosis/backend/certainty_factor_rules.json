@@ -1,0 +1,265 @@
+{
+  "penyakit": [
+    {
+      "nama": "Blas",
+      "kode": "P001",
+      "deskripsi": "Penyakit blas disebabkan oleh jamur Pyricularia oryzae yang menyerang daun, batang, dan malai padi",
+      "gejala": [
+        {
+          "kode": "G01",
+          "nama": "daun_menguning",
+          "cf_pakar": 0.8,
+          "bobot": 0.85
+        },
+        {
+          "kode": "G02",
+          "nama": "bercak_coklat",
+          "cf_pakar": 0.9,
+          "bobot": 0.95
+        },
+        {
+          "kode": "G04",
+          "nama": "pertumbuhan_terhambat",
+          "cf_pakar": 0.7,
+          "bobot": 0.75
+        },
+        {
+          "kode": "G06",
+          "nama": "bulir_hampa",
+          "cf_pakar": 0.6,
+          "bobot": 0.65
+        },
+        {
+          "kode": "G12",
+          "nama": "bercak_oval",
+          "cf_pakar": 0.85,
+          "bobot": 0.9
+        },
+        {
+          "kode": "G14",
+          "nama": "hawar_daun",
+          "cf_pakar": 0.5,
+          "bobot": 0.55
+        }
+      ]
+    },
+    {
+      "nama": "Kresek",
+      "kode": "P002",
+      "deskripsi": "Penyakit kresek atau hawar daun bakteri disebabkan oleh bakteri Xanthomonas oryzae",
+      "gejala": [
+        {
+          "kode": "G03",
+          "nama": "daun_menggulung",
+          "cf_pakar": 0.9,
+          "bobot": 0.95
+        },
+        {
+          "kode": "G04",
+          "nama": "pertumbuhan_terhambat",
+          "cf_pakar": 0.75,
+          "bobot": 0.8
+        },
+        {
+          "kode": "G08",
+          "nama": "daun_kering",
+          "cf_pakar": 0.85,
+          "bobot": 0.9
+        },
+        {
+          "kode": "G10",
+          "nama": "anakan_berkurang",
+          "cf_pakar": 0.7,
+          "bobot": 0.75
+        },
+        {
+          "kode": "G13",
+          "nama": "lendir_bakteri",
+          "cf_pakar": 0.95,
+          "bobot": 0.98
+        },
+        {
+          "kode": "G15",
+          "nama": "bau_busuk",
+          "cf_pakar": 0.6,
+          "bobot": 0.65
+        }
+      ]
+    },
+    {
+      "nama": "Tungro",
+      "kode": "P003",
+      "deskripsi": "Penyakit tungro disebabkan oleh virus yang ditularkan oleh wereng hijau",
+      "gejala": [
+        {
+          "kode": "G01",
+          "nama": "daun_menguning",
+          "cf_pakar": 0.95,
+          "bobot": 0.98
+        },
+        {
+          "kode": "G03",
+          "nama": "daun_menggulung",
+          "cf_pakar": 0.8,
+          "bobot": 0.85
+        },
+        {
+          "kode": "G04",
+          "nama": "pertumbuhan_terhambat",
+          "cf_pakar": 0.9,
+          "bobot": 0.95
+        },
+        {
+          "kode": "G06",
+          "nama": "bulir_hampa",
+          "cf_pakar": 0.7,
+          "bobot": 0.75
+        },
+        {
+          "kode": "G07",
+          "nama": "bercak_putih",
+          "cf_pakar": 0.75,
+          "bobot": 0.8
+        },
+        {
+          "kode": "G10",
+          "nama": "anakan_berkurang",
+          "cf_pakar": 0.85,
+          "bobot": 0.9
+        }
+      ]
+    },
+    {
+      "nama": "Hawar_Daun",
+      "kode": "P004",
+      "deskripsi": "Penyakit hawar daun disebabkan oleh jamur Rhizoctonia solani",
+      "gejala": [
+        {
+          "kode": "G02",
+          "nama": "bercak_coklat",
+          "cf_pakar": 0.8,
+          "bobot": 0.85
+        },
+        {
+          "kode": "G04",
+          "nama": "pertumbuhan_terhambat",
+          "cf_pakar": 0.65,
+          "bobot": 0.7
+        },
+        {
+          "kode": "G08",
+          "nama": "daun_kering",
+          "cf_pakar": 0.75,
+          "bobot": 0.8
+        },
+        {
+          "kode": "G14",
+          "nama": "hawar_daun",
+          "cf_pakar": 0.95,
+          "bobot": 0.98
+        },
+        {
+          "kode": "G01",
+          "nama": "daun_menguning",
+          "cf_pakar": 0.6,
+          "bobot": 0.65
+        }
+      ]
+    },
+    {
+      "nama": "Busuk_Batang",
+      "kode": "P005",
+      "deskripsi": "Penyakit busuk batang disebabkan oleh jamur yang menyerang batang padi",
+      "gejala": [
+        {
+          "kode": "G04",
+          "nama": "pertumbuhan_terhambat",
+          "cf_pakar": 0.85,
+          "bobot": 0.9
+        },
+        {
+          "kode": "G05",
+          "nama": "batang_busuk",
+          "cf_pakar": 0.95,
+          "bobot": 0.98
+        },
+        {
+          "kode": "G09",
+          "nama": "akar_busuk",
+          "cf_pakar": 0.9,
+          "bobot": 0.95
+        },
+        {
+          "kode": "G10",
+          "nama": "anakan_berkurang",
+          "cf_pakar": 0.7,
+          "bobot": 0.75
+        },
+        {
+          "kode": "G15",
+          "nama": "bau_busuk",
+          "cf_pakar": 0.8,
+          "bobot": 0.85
+        },
+        {
+          "kode": "G01",
+          "nama": "daun_menguning",
+          "cf_pakar": 0.6,
+          "bobot": 0.65
+        }
+      ]
+    },
+    {
+      "nama": "Busuk_Pelepah",
+      "kode": "P006",
+      "deskripsi": "Penyakit busuk pelepah disebabkan oleh jamur Sarocladium oryzae",
+      "gejala": [
+        {
+          "kode": "G01",
+          "nama": "daun_menguning",
+          "cf_pakar": 0.75,
+          "bobot": 0.8
+        },
+        {
+          "kode": "G04",
+          "nama": "pertumbuhan_terhambat",
+          "cf_pakar": 0.8,
+          "bobot": 0.85
+        },
+        {
+          "kode": "G06",
+          "nama": "bulir_hampa",
+          "cf_pakar": 0.9,
+          "bobot": 0.95
+        },
+        {
+          "kode": "G08",
+          "nama": "daun_kering",
+          "cf_pakar": 0.7,
+          "bobot": 0.75
+        },
+        {
+          "kode": "G10",
+          "nama": "anakan_berkurang",
+          "cf_pakar": 0.65,
+          "bobot": 0.7
+        },
+        {
+          "kode": "G11",
+          "nama": "malai_tidak_keluar",
+          "cf_pakar": 0.85,
+          "bobot": 0.9
+        }
+      ]
+    }
+  ],
+  "tingkat_keyakinan_user": {
+    "sangat_yakin": 1.0,
+    "yakin": 0.8,
+    "cukup_yakin": 0.6,
+    "kurang_yakin": 0.4,
+    "tidak_yakin": 0.2
+  },
+  "threshold_diagnosa": 0.6,
+  "keterangan": "CF Pakar adalah nilai certainty factor dari pakar untuk setiap gejala terhadap penyakit. Bobot digunakan untuk KNN sebagai feature importance."
+}
